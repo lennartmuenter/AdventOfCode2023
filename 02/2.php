@@ -1,6 +1,6 @@
 <?php
 
-$file = file('Day2.txt', FILE_IGNORE_NEW_LINES);
+$file = file('2.txt', FILE_IGNORE_NEW_LINES);
 
 $countFirst = 0;
 $countSecond = 0;

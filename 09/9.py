@@ -22,7 +22,7 @@ def getPrediction(line, part1):
             
     return prediction
     
-file = open('Day9.txt').read().split('\n')
+file = open('9.txt').read().split('\n')
 
 for part1 in (True,False):
     print(sum(list(getPrediction(line, part1) for line in file)))

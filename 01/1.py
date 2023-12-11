@@ -5,7 +5,7 @@ def findNumber(line):
     numbers = list(line)
     return int(numbers[0] + numbers[len(numbers) - 1])
 
-file = open('Day1.txt', 'r')
+file = open('1.txt', 'r')
 
 countFirst = 0
 countSecond = 0

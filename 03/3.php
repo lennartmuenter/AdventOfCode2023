@@ -1,5 +1,5 @@
 <?php
-$file = file("Day3.txt");
+$file = file("3.txt");
 
 $numbercords = [];
 $specialcords = [];

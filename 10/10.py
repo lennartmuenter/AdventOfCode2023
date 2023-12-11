@@ -1,4 +1,4 @@
-arr = list(map(list, open('Day10.txt').read().split('\n')))
+arr = list(map(list, open('10.txt').read().split('\n')))
 
 containsStart = [line for line in arr if 'S' in line][0]
 

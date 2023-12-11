@@ -1,4 +1,4 @@
-file = open('Day6.txt', 'r')
+file = open('6.txt', 'r')
 lines = file.readlines()
 
 races = []

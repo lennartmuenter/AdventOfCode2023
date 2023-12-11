@@ -1,6 +1,6 @@
 <?php
 $before = microtime(true);
-$file = file("Day4.txt");
+$file = file("4.txt");
 
 $pointsCount = 0;
 $cardCount = [];

@@ -7,7 +7,7 @@ function findNumber($line)
     return intval($numbers[0] . $numbers[count($numbers) - 1]);
 }
 
-$file = file('Day1.txt', FILE_IGNORE_NEW_LINES);
+$file = file('1.txt', FILE_IGNORE_NEW_LINES);
 
 $countFirst = 0;
 $countSecond = 0;

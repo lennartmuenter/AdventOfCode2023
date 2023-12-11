@@ -1,7 +1,7 @@
 <?php
 $before = microtime(true);
 
-$file = file("Day5.txt", FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+$file = file("5.txt", FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
 
 preg_match('/^seeds\:\s([\d\s]+)$/', $file[0], $matches);
 $seeds = array_map(function ($i) {

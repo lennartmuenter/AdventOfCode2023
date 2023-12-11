@@ -1,6 +1,6 @@
 import collections
 
-file = open('Day7.txt').read().split('\n')
+file = open('7.txt').read().split('\n')
 
 def getKind(hand):
     duplicates = {i:hand.count(i) for i in hand}

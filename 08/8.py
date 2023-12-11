@@ -12,7 +12,7 @@ def countPathLength(steps, start, instructions):
         count += 1
     return count
     
-file = open('Day8.txt').read().replace('\n\n', '\n').split('\n')
+file = open('8.txt').read().replace('\n\n', '\n').split('\n')
 
 instructions = list(file.pop(0))
 

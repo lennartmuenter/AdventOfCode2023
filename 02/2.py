@@ -1,6 +1,6 @@
 import re
 
-file = open('Day2.txt', 'r')
+file = open('2.txt', 'r')
 
 countFirst = 0
 countSecond = 0
